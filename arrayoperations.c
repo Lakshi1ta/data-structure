@@ -1,5 +1,10 @@
 #include<stdio.h>
 int n,i;
+void create(int * arr);
+void insert(int * arr);
+void traverse(int * arr);
+void search(int * arr);
+void delete(int * arr);
 int main() {
     printf("enter size of array\n");
     scanf("%d",&n);
