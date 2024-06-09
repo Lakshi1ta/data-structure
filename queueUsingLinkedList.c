@@ -3,7 +3,7 @@
 struct node{
     int data;
     struct node *next;
-}*front=0,*rear=0,*newnode,*temp;
+}*front=NULL,*rear=NULL,*newnode,*temp;
 int main() {
     enque();
     enque();
