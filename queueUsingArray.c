@@ -23,7 +23,7 @@ void enque(){
         rear++;
         queue[rear]=val;
     }
-}\
+}
 void display(){
     if(front==-1||rear==-1){
         printf("No elements\n");
